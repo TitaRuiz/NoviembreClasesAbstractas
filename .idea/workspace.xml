@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c8b908d-9bee-473f-8697-451678a01120" name="Changes" comment="17:07">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2c8b908d-9bee-473f-8697-451678a01120" name="Changes" comment="17:22">
       <change beforePath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarPolimorfismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarPolimorfismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarPolimorfismoFigura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corenetworks/presentacion/ProbarPolimorfismoFigura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ProbarPolimorfismo">
+  <component name="RunManager" selected="Application.ProbarPolimorfismoFigura">
     <configuration name="PolimorfismoInstrumentoMusical" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.PolimorfismoInstrumentoMusical" />
       <module name="NoviembreClasesAbstractas" />
@@ -106,8 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProbarPolimorfismo" />
         <item itemvalue="Application.ProbarPolimorfismoFigura" />
+        <item itemvalue="Application.ProbarPolimorfismo" />
         <item itemvalue="Application.PolimorfismoInstrumentoMusical" />
         <item itemvalue="Application.ProbarInstrumentoMusical" />
         <item itemvalue="Application.ProbarEmpleado" />
@@ -147,13 +147,22 @@
       <option name="project" value="LOCAL" />
       <updated>1699459642985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="17:22">
+      <option name="closed" value="true" />
+      <created>1699460531534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699460531534</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="16:58" />
     <MESSAGE value="17:38" />
     <MESSAGE value="17:07" />
-    <option name="LAST_COMMIT_MESSAGE" value="17:07" />
+    <MESSAGE value="17:22" />
+    <option name="LAST_COMMIT_MESSAGE" value="17:22" />
   </component>
 </project>

@@ -32,6 +32,9 @@ public class ProbarPolimorfismo {
 
         for (Empleado elemento:empleados
              ) {
+            if(elemento instanceof Empleado){
+                System.out.println("Entra al bucle ----");
+            }
             if(elemento instanceof Gerente){
                 System.out.println("Bono -> "+ ((Gerente) elemento).getBono());
             }

@@ -25,6 +25,13 @@ public class ProbarPolimorfismoFigura {
 
         for (Figura elemento:
              figuras) {
+            if(elemento instanceof Cuadrado){
+                System.out.println("Lado " + ((Cuadrado) elemento).getLado());
+            }
+
+            if(elemento instanceof Triangulo){
+                System.out.println("Base " + ((Triangulo) elemento).getBase() + " , Altura " + ((Triangulo) elemento).getAltura() );
+            }
             System.out.println("Calcular el area -> " + elemento.calcularArea());
             System.out.println(elemento.toString());
         }
