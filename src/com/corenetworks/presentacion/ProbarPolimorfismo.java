@@ -32,6 +32,15 @@ public class ProbarPolimorfismo {
 
         for (Empleado elemento:empleados
              ) {
+            if(elemento instanceof Gerente){
+                System.out.println("Bono -> "+ ((Gerente) elemento).getBono());
+            }
+            if(elemento instanceof  Vendedor){
+                System.out.println("Ventas " + ((Vendedor)elemento).getVentas());
+            }
+            if (elemento instanceof Operador) {
+                System.out.println("Piezas -> "+ ((Operador)elemento).getPiezas());
+            }
             System.out.println("Calcular nómina -> "+ elemento.calcularNomina());
             System.out.println(elemento.toString());
         }
